@@ -22,16 +22,18 @@
 
 <header class="app-header">
 
-    <img src="images/ou.jpeg" class="corner-logo left-logo">
+    <div class="logo-container">
+        <img src="ou.jpeg" class="corner-logo left-logo">
+        <img src="otbi.jpeg" class="corner-logo right-logo">
+    </div>
 
     <div class="header-text">
         <h1>EDUSTREAMIX</h1>
         <p>Smart B.Com Semester 6 Learning</p>
     </div>
 
-    <img src="images/otbi.jpeg" class="corner-logo right-logo">
-
 </header>
+
 
 <!-- NAV BUTTONS -->
 <div class="top-controls">
@@ -48,7 +50,10 @@
 <div id="subjects" class="screen"></div>
 <div id="channels" class="screen"></div>
 <div id="links" class="screen"></div>
-
+<div class="footer">
+     <h5 style="text-align: center;">Powered by </h5><br/>
+     <h4 style="text-align: center; margin-left: 5px; color: #000;">Tchetty Pvt. Ltd.</h4>
+</div>
 </div>
 
 <script src="data.js"></script>
@@ -124,21 +129,24 @@ function showChannels(subject){
     switchScreen(channelsDiv);
 }
 
-function showLinks(channel){
+function showLinks(channel) {
     currentChannel = channel;
+
     linksDiv.innerHTML = `
         <h2>${currentSubject.name}</h2>
         <h3>${channel.name}</h3>
         <h4>YouTube Playlist Links</h4>
     `;
 
-    channel.links.forEach(link=>{
-        let a = document.createElement("a");
-        a.href = link;
-        a.target = "_blank";
-        a.className = "playlist-btn";
-        a.innerHTML = "▶ Watch on YouTube";
-        linksDiv.appendChild(a);
+    channel.links.forEach(link => {
+
+        let iframe = document.createElement("iframe");
+        iframe.src = link;   
+        iframe.frameBorder = "0";
+        iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+        iframe.allowFullscreen = true;
+
+        linksDiv.appendChild(iframe);
     });
 
     switchScreen(linksDiv);
@@ -175,6 +183,6 @@ window.onload = function(){
 };
 
 </script>
-
+ 
 </body>
 </html>

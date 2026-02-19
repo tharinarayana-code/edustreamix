@@ -12,23 +12,24 @@ const commonLanguages = [
 name:"English",
 channels:[
 {name:"Part A - English by Nisa",links:[
-"https://www.youtube.com/playlist?list=PLUJXB7al70IB4mDWQIPyriRRylnwjPU2D"
+"https://www.youtube.com/embed/videoseries?list=PLUJXB7al70IB4mDWQIPyriRRylnwjPU2D"
 ]},
 {name:"Part B - English by Nisa",links:[
-"https://www.youtube.com/playlist?list=PLUJXB7al70IBdkE4oiI4d40mycUq4JnQ8"
+"https://www.youtube.com/embed/videoseries?list=PLUJXB7al70IBdkE4oiI4d40mycUq4JnQ8"
 ]},
 {name:"Whole Subject - Sara’s Learning Point",links:[
-"https://www.youtube.com/playlist?list=PLjNdhMBtsxpwAyVG7o59hqSCUYKKHvz-Y"
+"https://www.youtube.com/embed/videoseries?list=PLjNdhMBtsxpwAyVG7o59hqSCUYKKHvz-Y"
 ]},
 {name:"Whole Subject - Dandu Venkatramulu",links:[
-"https://www.youtube.com/playlist?list=PLyjVm5GfnmY6rkPqkpH7psUaOBb44ShwS"
+"https://www.youtube.com/embed/videoseries?list=PLyjVm5GfnmY6rkPqkpH7psUaOBb44ShwS"
 ]},
 {name:"Whole Subject - Educare",links:[
-"https://www.youtube.com/playlist?list=PLbBCm7TkLCKJtzjewd_X4NrbTBd4eCy_M"
+"https://www.youtube.com/embed/videoseries?list=PLbBCm7TkLCKJtzjewd_X4NrbTBd4eCy_M"
 ]},
 {name:"Whole Subject - PCV English",links:[
-"https://www.youtube.com/playlist?list=PLldWy7gu4R757w2-mkgFz7HDzDVhp-GkT"
+"https://www.youtube.com/embed/videoseries?list=PLldWy7gu4R757w2-mkgFz7HDzDVhp-GkT"
 ]}
+
 ]
 },
 
@@ -36,10 +37,10 @@ channels:[
 name:"Telugu",
 channels:[
 {name:"Dandu Venkatramulu",links:[
-"https://www.youtube.com/playlist?list=PLyjVm5GfnmY6UUa5iLn-GQNPkW7y1CeMh"
+"https://www.youtube.com/embed/videoseries?list=PLyjVm5GfnmY6UUa5iLn-GQNPkW7y1CeMh"
 ]},
 {name:"Matrubhasha",links:[
-"https://www.youtube.com/playlist?list=PL7noKDJp4ZRKVkWtOlT6edyqABvC-zjNI"
+"https://www.youtube.com/embed/videoseries?list=PL7noKDJp4ZRKVkWtOlT6edyqABvC-zjNI"
 ]}
 ]
 },
@@ -48,7 +49,7 @@ channels:[
 name:"Hindi",
 channels:[
 {name:"Disha Hindi Classes",links:[
-"https://www.youtube.com/playlist?list=PLsTBUOfP6EhdnT2rEau2eaprGMdw6BZra"
+"https://www.youtube.com/embed/videoseries?list=PLsTBUOfP6EhdnT2rEau2eaprGMdw6BZra"
 ]}
 ]
 },
@@ -57,13 +58,13 @@ channels:[
 name:"Sanskrit",
 channels:[
 {name:"Dandu Venkatramulu",links:[
-"https://www.youtube.com/playlist?list=PLyjVm5GfnmY7ynZnZ0neH3LcGAi1oBzHh"
+"https://www.youtube.com/embed/videoseries?list=PLyjVm5GfnmY7ynZnZ0neH3LcGAi1oBzHh"
 ]},
 {name:"My Teaching Talkies",links:[
-"https://www.youtube.com/playlist?list=PLc1Q__0qOGAoAuv-LLipyNqpatmyE_7KJ"
+"https://www.youtube.com/embed/videoseries?list=PLc1Q__0qOGAoAuv-LLipyNqpatmyE_7KJ"
 ]},
 {name:"Dr. Pusapati Ravikantha Reddy",links:[
-"https://www.youtube.com/playlist?list=PLiOV0508aWZti2c9x-V-WxJCmGLW2EN3e"
+"https://www.youtube.com/embed/videoseries?list=PLiOV0508aWZti2c9x-V-WxJCmGLW2EN3e"
 ]}
 ]
 }
@@ -79,13 +80,13 @@ const commerceCore = [
 name:"Cost Control and Management Accounting",
 channels:[
 {name:"Hasham Ali Khan - Part 1",links:[
-"https://www.youtube.com/playlist?list=PLWJDzVuPkXAllmGP19jfhneNUdgOy1g2v"
+"https://www.youtube.com/embed/videoseries?list=PLWJDzVuPkXAllmGP19jfhneNUdgOy1g2v"
 ]},
 {name:"Hasham Ali Khan - Part 2",links:[
-"https://www.youtube.com/playlist?list=PLWJDzVuPkXAlg4vnE3ZhB7UVp9JWl6Mog"
+"https://www.youtube.com/embed/videoseries?list=PLWJDzVuPkXAlg4vnE3ZhB7UVp9JWl6Mog"
 ]},
 {name:"Devika’s Commerce - Whole Subject",links:[
-"https://www.youtube.com/playlist?list=PLLhSIFfDZcUVaBuGIMvQFx1OVGzfhbPeC"
+"https://www.youtube.com/embed/videoseries?list=PLLhSIFfDZcUVaBuGIMvQFx1OVGzfhbPeC"
 ]}
 ]
 },
@@ -94,7 +95,7 @@ channels:[
 name:"Theory and Practice of GST",
 channels:[
 {name:"Hasham Ali Khan - Whole Subject",links:[
-"https://www.youtube.com/playlist?list=PLWJDzVuPkXAkNpdAIqufc2JxDoxjENrsj"
+"https://www.youtube.com/embed/videoseries?list=PLWJDzVuPkXAkNpdAIqufc2JxDoxjENrsj"
 ]}
 ]
 },
@@ -103,10 +104,10 @@ channels:[
 name:"Accounting Standards",
 channels:[
 {name:"Devika’s Commerce",links:[
-"https://www.youtube.com/playlist?list=PLLhSIFfDZcUXO81uWFy_F6O4ZX0JfTYkV"
+"https://www.youtube.com/embed/videoseries?list=PLLhSIFfDZcUXO81uWFy_F6O4ZX0JfTYkV"
 ]},
 {name:"Hasham Ali Khan",links:[
-"https://www.youtube.com/playlist?list=PLWJDzVuPkXAmAI6CfaLfYpQVvQFhXzxC6"
+"https://www.youtube.com/embed/videoseries?list=PLWJDzVuPkXAmAI6CfaLfYpQVvQFhXzxC6"
 ]}
 ]
 },
@@ -115,13 +116,13 @@ channels:[
 name:"Research Methodology & Project",
 channels:[
 {name:"Devika’s Commerce",links:[
-"https://www.youtube.com/playlist?list=PLLhSIFfDZcUWRlgiXMkd1rNeLSz1You4O"
+"https://www.youtube.com/embed/videoseries?list=PLLhSIFfDZcUWRlgiXMkd1rNeLSz1You4O"
 ]},
 {name:"Lakshya Commerce",links:[
-"https://www.youtube.com/playlist?list=PLjMjkIR4-dvIAvboLjtq6sSi_1_wk2VgD"
+"https://www.youtube.com/embed/videoseries?list=PLjMjkIR4-dvIAvboLjtq6sSi_1_wk2VgD"
 ]},
 {name:"Pooja Singh",links:[
-"https://www.youtube.com/playlist?list=PLk3poRqYftlhDGto5oSxeNeFWHzajbVuA"
+"https://www.youtube.com/embed/videoseries?list=PLk3poRqYftlhDGto5oSxeNeFWHzajbVuA"
 ]}
 ]
 }
@@ -143,7 +144,7 @@ data["B.Com Honors - Semester 6"] =
             name:"International Finance",
             channels:[
                 {name:"Hasham Ali Khan",links:[
-                    "https://www.youtube.com/playlist?list=PLWJDzVuPkXAnNpRjN6InK65R7ndvpYZUf"
+                    "https://www.youtube.com/embed/videoseries?list=PLWJDzVuPkXAnNpRjN6InK65R7ndvpYZUf"
                 ]}
             ]
         }
@@ -160,7 +161,7 @@ data["B.Com Computer Applications - Semester 6"] =
             name:"Cybersecurity",
             channels:[
                 {name:"Whole Subject",links:[
-                    "https://www.youtube.com/playlist?list=PLtfg0YD2YYUQMZp4bRkeZI0JXWHGqh8vo"
+                    "https://www.youtube.com/embed/videoseries?list=PLtfg0YD2YYUQMZp4bRkeZI0JXWHGqh8vo"
                 ]}
             ]
         }
